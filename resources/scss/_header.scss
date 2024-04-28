@@ -1,0 +1,13 @@
+.header{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-wrapper{
+    background-color: $header-bg-color;
+
+    .list-menu {
+        padding-left: 50px;
+    }
+}

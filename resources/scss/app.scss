@@ -1,7 +1,13 @@
-@import url("../scss/footer.scss");
+@import "variables.scss";
+@import "announcement.scss";
+@import "header.scss";
+@import "footer.scss";
 
 
 body{
     margin:0;
-    background:red;
+}
+
+.page-width{
+    margin: unset;
 }
