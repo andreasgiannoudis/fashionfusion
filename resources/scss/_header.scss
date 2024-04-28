@@ -1,0 +1,15 @@
+.header{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: unset;
+    padding-bottom: unset;
+    
+}
+.header-wrapper{
+    background-color: $header-bg-color;
+
+    .list-menu {
+        padding-left: 50px;
+    }
+}
