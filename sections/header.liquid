@@ -171,6 +171,7 @@
         <h1 class="header__heading">
       {%- endif -%}
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+            <img src="{{ 'fashion_fushion_logo.png' | asset_url }}" width="120" height="120" alt="fasion fushion logo" / >
             {%- if settings.logo != blank -%}
               <div class="header__heading-logo-wrapper">
                 {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
@@ -188,7 +189,7 @@
                 }}
               </div>
             {%- else -%}
-              <span class="h2">{{ shop.name }}</span>
+              {% comment %} <span class="h2">{{ shop.name }}</span> {% endcomment %}
             {%- endif -%}
           </a>
       {%- if request.page_type == 'index' -%}
