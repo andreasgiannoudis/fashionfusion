@@ -6,6 +6,7 @@
 {%- if settings.predictive_search_enabled -%}
   <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
+
 {%- if section.settings.menu_type_desktop == 'mega' -%}
   <link rel="stylesheet" href="{{ 'component-mega-menu.css' | asset_url }}" media="print" onload="this.media='all'">
   <noscript>{{ 'component-mega-menu.css' | asset_url | stylesheet_tag }}</noscript>
@@ -170,6 +171,7 @@
         <h1 class="header__heading">
       {%- endif -%}
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+            <img src="{{ 'fashion_fushion_logo.png' | asset_url }}" width="120" height="120" alt="fasion fushion logo" / >
             {%- if settings.logo != blank -%}
               <div class="header__heading-logo-wrapper">
                 {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
@@ -187,7 +189,7 @@
                 }}
               </div>
             {%- else -%}
-              <span class="h2">{{ shop.name }}</span>
+              {% comment %} <span class="h2">{{ shop.name }}</span> {% endcomment %}
             {%- endif -%}
           </a>
       {%- if request.page_type == 'index' -%}
@@ -195,15 +197,7 @@
       {%- endif -%}
     {%- endif -%}
 
-    {%- liquid
-      if section.settings.menu != blank
-        if section.settings.menu_type_desktop == 'dropdown'
-          render 'header-dropdown-menu'
-        elsif section.settings.menu_type_desktop != 'drawer'
-          render 'header-mega-menu'
-        endif
-      endif
-    %}
+    
 
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
@@ -337,6 +331,16 @@
       </a>
     </div>
   </header>
+  {% comment %} Here will be the navigation {% endcomment %}
+  <div>{%- liquid
+    if section.settings.menu != blank
+      if section.settings.menu_type_desktop == 'dropdown'
+        render 'header-dropdown-menu'
+      elsif section.settings.menu_type_desktop != 'drawer'
+        render 'header-mega-menu'
+      endif
+    endif
+  %}</div>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
 
 {%- if settings.cart_type == "notification" -%}

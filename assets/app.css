@@ -1,5 +1,25 @@
-
+.utility-bar {
+  background-color: #182A49;
+}
+.utility-bar span {
+  color: #fff;
+}
+.header {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: unset;
+  padding-bottom: unset;
+}
+.header-wrapper {
+  background-color: #F1F1F1;
+}
+.header-wrapper .list-menu {
+  padding-left: 50px;
+}
 body {
   margin: 0;
-  background: red;
+}
+.page-width {
+  margin: unset;
 }
