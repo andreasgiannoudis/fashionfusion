@@ -2,43 +2,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "newsletter_WwbgwB": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_iJYJCj": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Gå med i FashionFusion Club<\/strong>",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_gkaDxe": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Gå med i FashionFusion Club och få 10% rabatt på ditt första köp!<\/p>"
-          }
-        },
-        "email_form_dcWWhR": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading_iJYJCj",
-        "paragraph_gkaDxe",
-        "email_form_dcWWhR"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -73,7 +36,7 @@
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Gå med i FashionFusion Club och få 10% rabatt på ditt första köp!",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
@@ -87,7 +50,6 @@
     }
   },
   "order": [
-    "newsletter_WwbgwB",
     "footer"
   ]
 }

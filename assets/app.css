@@ -17,6 +17,18 @@
 .header-wrapper .list-menu {
   padding-left: 50px;
 }
+.section-sections--22621758128427__footer-padding {
+  background-color: #182A49;
+}
+.section-sections--22621758128427__footer-padding h2 {
+  color: #C8B790;
+}
+.section-sections--22621758128427__footer-padding a {
+  color: #C8B790 !important;
+}
+.section-sections--22621758128427__footer-padding .footer__content-top {
+  max-width: unset;
+}
 body {
   margin: 0;
 }
