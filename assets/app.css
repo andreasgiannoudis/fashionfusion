@@ -1,3 +1,64 @@
+.popup-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #F4973D;
+  padding: 20px;
+  z-index: 9999;
+}
+.popup-content button {
+  border: none !important;
+}
+.popup-content .popup-main-heading,
+.popup-content .popup-first-text,
+.popup-content .popup-main-text,
+.popup-content .discount-code-display {
+  color: #FFFFFF;
+  font-family: "Open Sans";
+}
+.popup-content .popup-main-heading {
+  font-weight: 700;
+  font-size: 57.07px;
+  line-height: 50px;
+}
+.popup-content .popup-first-text {
+  font-weight: 300;
+  font-size: 28.59px;
+  line-height: 32px;
+}
+.popup-content .popup-main-text {
+  font-weight: 400;
+  font-size: 15.13px;
+  line-height: 20px;
+}
+.popup-content .show-discount-code {
+  width: 209.78px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #2E3035;
+  color: #fff;
+  cursor: pointer;
+}
+.popup-content .show-login {
+  width: 301.55px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #2E3035;
+  color: #fff;
+  cursor: pointer;
+}
+.popup-content .close-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 50%;
+}
 .utility-bar {
   background-color: #C8B790;
 }
@@ -6,7 +67,7 @@
 }
 .header {
   max-width: 100%;
-  height: 80px;
+  height: 90px;
   display: flex;
   justify-content: space-between;
   padding-top: unset;
@@ -21,10 +82,14 @@
 .header-wrapper {
   background-color: #182A49;
 }
-.header-wrapper .list-menu {
+.header-wrapper nav {
+  display: flex;
+  justify-content: center;
+}
+.header-wrapper nav .list-menu {
   padding-left: 50px;
 }
-.header-wrapper .list-menu li a span {
+.header-wrapper nav .list-menu li a span {
   color: #C8B790;
   font-size: 16px;
   line-height: 24px;

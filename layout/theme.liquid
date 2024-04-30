@@ -285,6 +285,23 @@
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+    
+    <div id="popup-content" class="popup-content" style="display: none;">
+      <h2 class="popup-main-heading">Bli medlem</h2>
+      <p class="popup-first-text">och få 10% rabatt på din första order*!</p>
+      <p class="popup-main-text">Som medlem får du många schyssta förmåner: bland annat fri
+      hemleverans över 599 kr. Rabattkoden nedan fungerar endast för
+      registrerade medlemmar och kan ej kombineras med övriga rabatter och
+      erbjudanden.</p>
+
+      <div class="discount-code-display" id="discount-code-display"></div>
+
+      <button id="show-discount-code" class="show-discount-code">VISA RABATTKOD</button>
+      <button id="show-login" class="show-login" href="https://fashionfusionab.myshopify.com/account">Inte medlem? Klicka här!</button>
+      <button id="close-button" class="close-button">X</button>
+    </div>
+
+
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
