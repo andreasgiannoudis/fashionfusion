@@ -12,7 +12,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -80,9 +80,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-thirdman-8483487.jpg",
-            "heading": "",
+            "heading": "Utforska vårt utbud av skjortor och hitta din signaturstil",
             "heading_size": "h1",
-            "subheading": "Utforska vårt utbud av skjortor och hitta din signaturstil",
+            "subheading": "",
             "button_label": "KÖP HÄR",
             "link": "",
             "button_style_secondary": false,
@@ -110,11 +110,242 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "collection_list_fHemTC": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_iGUBni": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_L9crpT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_rbHB99": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_iGUBni",
+        "featured_collection_L9crpT",
+        "featured_collection_rbHB99"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "slideshow_p7R9md": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_3GnzGQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-royalanwar-983497.jpg",
+            "heading": "Stil och komfort möts i vårt urval av jackor för alla tillfällen",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "KÖP HÄR",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_3GnzGQ"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "collection_list_8GBRBq": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_ETraQA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_6gWWNg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_j8UeNn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_ETraQA",
+        "featured_collection_6gWWNg",
+        "featured_collection_j8UeNn"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_dDxDNx": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\nvideo {\nwidth: 100%;\nheight: auto;\ndisplay: block;\nmargin: 0 auto;\n}\n<\/style>\n<video muted autoplay playsinline loop>\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/07ef5866d7d94ed392bbb6e70eb5b692.mp4\"\n                  type=\"video\/mp4\">\n    <source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/07ef5866d7d94ed392bbb6e70eb5b692.mp4\"\n                  type=\"video\/mp4\">\n<\/video>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_JD7MCB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M6MrQY": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Upptäck Våra Varumärken<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_Vp8tGG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Utforska våra exklusiva varumärken och upptäck en värld av stil och kvalitet. Varje varumärke representerar en unik vision och estetik, och erbjuder ett brett utbud av produkter som omfattar allt från eleganta kostymer till avslappnade vardagsplagg. Ta en närmare titt på våra varumärken nedan och hitta din nästa favoritstil.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_M6MrQY",
+        "text_Vp8tGG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_htjLAb": {
+      "type": "multirow",
+      "blocks": {
+        "row_JcPWcp": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Skarmbild_2024-05-02_215048.png",
+            "caption": "TAGLINE HERE",
+            "heading": "<strong>LOREM IPSUM<\/strong>",
+            "text": "<p>Med fokus på kvalitet och stil erbjuder Lorem Ipsum en exklusiv kollektion av herrkläder som kombinerar klassisk elegans med moderna detaljer, perfekt för den stilmedvetne mannen som värdesätter tidlös design och överlägsen komfort.<\/p>",
+            "button_label": "KÖP HÄR",
+            "button_link": ""
+          }
+        },
+        "row_tURyaG": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Skarmbild_2024-05-02_214436.png",
+            "caption": "ESTD MMXVII",
+            "heading": "<strong>SILVER SHARP<\/strong>",
+            "text": "<p>Sivel Sharp är synonymt med sofistikerad och distinkt stil. Vår kollektion av herrkläder erbjuder precisionsskurna plagg i högkvalitativa material, perfekta för den moderna mannen som strävar efter att göra ett starkt intryck vart han än går.<\/p>",
+            "button_label": "KÖP HÄR",
+            "button_link": ""
+          }
+        },
+        "row_qkMRQb": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Skarmbild_2024-05-02_214514.png",
+            "caption": "EG",
+            "heading": "<strong>MENS FASHION<\/strong>",
+            "text": "<p>Med fokus på mångsidighet och trendiga detaljer erbjuder Mens Fashion en omfattande kollektion av herrkläder som är perfekta för dagens urban lifestyle. Våra plagg är designade för att vara bekväma och stilfulla, vilket ger en unik och personlig touch till varje outfit.<\/p>",
+            "button_label": "KÖP HÄR",
+            "button_link": ""
+          }
+        },
+        "row_KhhUMb": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Skarmbild_2024-05-02_221452.png",
+            "caption": "clothing store",
+            "heading": "<strong>CLOTHING<\/strong>",
+            "text": "<p>Clothing är ett varumärke som omfamnar den moderna mannens individualitet och unika stil. Vår kollektion av herrkläder är inspirerad av tidlösa klassiker och nutida trender, vilket ger en mångsidig och stilfull garderob för alla tillfällen.<\/p>",
+            "button_label": "KÖP HÄR",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_JcPWcp",
+        "row_tURyaG",
+        "row_qkMRQb",
+        "row_KhhUMb"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "custom_liquid_aRKGXU",
     "featured_collection",
-    "slideshow_FLyajL"
+    "slideshow_FLyajL",
+    "collection_list_fHemTC",
+    "slideshow_p7R9md",
+    "collection_list_8GBRBq",
+    "custom_liquid_dDxDNx",
+    "rich_text_JD7MCB",
+    "multirow_htjLAb"
   ]
 }
