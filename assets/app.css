@@ -59,6 +59,18 @@
   right: 5px;
   border-radius: 50%;
 }
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  .popup-content .show-discount-code {
+    margin-bottom: 5px;
+  }
+}
+/* For tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .popup-content .show-discount-code {
+    margin-bottom: 5px;
+  }
+}
 .utility-bar {
   background-color: #C8B790;
 }
@@ -95,6 +107,18 @@
   line-height: 24px;
   font-family: "Open Sans";
   font-weight: 400;
+}
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  .header-wrapper .header__inline-menu {
+    display: none;
+  }
+}
+/* For tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .header__inline-menu {
+    display: none;
+  }
 }
 .footer {
   background-color: #182A49;

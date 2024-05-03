@@ -73,3 +73,24 @@
         border-radius: 50%;
     }
 }
+
+
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+    .popup-content{
+        .show-discount-code{
+            margin-bottom: 5px
+        }
+    }
+    
+  }
+  
+  /* For tablets */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .popup-content{
+        .show-discount-code{
+            margin-bottom: 5px
+        }
+    }
+  }

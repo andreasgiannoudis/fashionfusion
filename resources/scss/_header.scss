@@ -42,6 +42,21 @@
             padding-left: 50px;
         }
     }
-
-    
 }
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+    .header-wrapper{
+        .header__inline-menu {
+            display: none;
+          }
+    }
+    
+  }
+  
+  /* For tablets */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .header__inline-menu {
+      display: none;
+    }
+  }
