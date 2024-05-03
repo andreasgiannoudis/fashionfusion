@@ -232,7 +232,7 @@
                     | item_count_for_variant: product.selected_or_first_available_variant.id
                   -%}
                   {% # theme-check-enable %}
-                  <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
+                  {% comment %} <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
                     {{ 'products.product.quantity.label' | t }}
                     <span class="quantity__rules-cart no-js-hidden{% if cart_qty == 0 %} hidden{% endif %}">
                       {%- render 'loading-spinner' -%}
@@ -242,9 +242,9 @@
                         )</span
                       >
                     </span>
-                  </label>
+                  </label> {% endcomment %}
                   <div class="price-per-item__container">
-                    <quantity-input class="quantity" data-url="{{ product.url }}" data-section="{{ section.id }}">
+                    {% comment %} <quantity-input class="quantity" data-url="{{ product.url }}" data-section="{{ section.id }}">
                       <button class="quantity__button no-js-hidden" name="minus" type="button">
                         <span class="visually-hidden">
                           {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
@@ -273,7 +273,7 @@
                         </span>
                         {% render 'icon-plus' %}
                       </button>
-                    </quantity-input>
+                    </quantity-input> {% endcomment %}
                     {%- liquid
                       assign volume_pricing_array = product.selected_or_first_available_variant.quantity_price_breaks | sort: 'quantity' | reverse
                       assign current_qty_for_volume_pricing = cart_qty | plus: product.selected_or_first_available_variant.quantity_rule.min
