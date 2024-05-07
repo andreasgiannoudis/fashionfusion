@@ -2,6 +2,38 @@
     .product__info-wrapper{
         .product__info-container
         {
+            .product__title{
+                .discount-percentage{
+                    font-family: 'Open Sans';
+                    font-weight: 700;
+                    color: #F61031;
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+
+            .price {
+                .price__container{
+                    .price__sale{
+                        .price-item--sale{
+                            color: #F61031;
+                            font-family: 'Open Sans';
+                            font-weight: 700;
+                            font-size: 28px;
+                            line-height: 42px; 
+                        }
+                        span{
+                            .price-item{
+                                color: #111827;
+                                font-family: 'Open Sans';
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 27px;
+                            }
+                        }
+                    }
+                }
+            }
             .product-form__input{
                 label{
                     border-radius: unset;

@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
   function closePopup() {
     popupContent.style.display = "none";
-    setCookie("popupClosed", "true", 1 / 1440);
+    setCookie("popupClosed", "true", 7);
   }
   closeButton.addEventListener("click", closePopup);
   showLoginBtn.addEventListener("click", function() {

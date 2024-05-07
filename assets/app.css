@@ -101,6 +101,9 @@
 .header-wrapper nav .list-menu {
   padding-left: 50px;
 }
+.header-wrapper nav .list-menu li a {
+  text-transform: uppercase;
+}
 .header-wrapper nav .list-menu li a span {
   color: #C8B790;
   font-size: 16px;
@@ -199,6 +202,27 @@
 .button--secondary:active {
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
+}
+.product .product__info-wrapper .product__info-container .product__title .discount-percentage {
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: #F61031;
+  font-size: 16px;
+  line-height: 24px;
+}
+.product .product__info-wrapper .product__info-container .price .price__container .price__sale .price-item--sale {
+  color: #F61031;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+}
+.product .product__info-wrapper .product__info-container .price .price__container .price__sale span .price-item {
+  color: #111827;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
 }
 .product .product__info-wrapper .product__info-container .product-form__input label {
   border-radius: unset;

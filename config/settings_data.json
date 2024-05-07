@@ -134,6 +134,14 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "9028757615627660041": {
+        "type": "shopify:\/\/apps\/k-cross-sell-related-products\/blocks\/app-embeded\/51712c89-314f-4c37-bf48-256845cc949d",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {

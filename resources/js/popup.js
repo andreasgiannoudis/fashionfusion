@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function closePopup() {
         popupContent.style.display = 'none';
-        setCookie('popupClosed', 'true', 1/1440);
+        setCookie('popupClosed', 'true', 7);
     }
 
     closeButton.addEventListener('click', closePopup);
@@ -42,11 +42,12 @@ document.addEventListener('DOMContentLoaded', function() {
         let expires = '';
         if (days) {
             const date = new Date();
-            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000)); // 7 days duration
             expires = '; expires=' + date.toUTCString();
         }
         document.cookie = name + '=' + (value || '') + expires + '; path=/';
     }
+    
 
     function getCookie(name) {
         const nameEQ = name + '=';
