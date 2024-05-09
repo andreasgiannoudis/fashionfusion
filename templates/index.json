@@ -48,7 +48,7 @@
             "heading_size": "h1",
             "subheading": "Klicka här för att shoppa våra senaste kostymer",
             "button_label": "KÖP HÄR",
-            "link": "",
+            "link": "shopify:\/\/collections\/kostymer",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -66,7 +66,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "KÖP HÄR",
-            "link": "",
+            "link": "shopify:\/\/collections\/skor",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -84,7 +84,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "KÖP HÄR",
-            "link": "",
+            "link": "shopify:\/\/collections\/skjortor",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -117,32 +117,39 @@
         "featured_collection_iGUBni": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "100kr-sale-t-shirts"
           }
         },
         "featured_collection_L9crpT": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "2-for-1-featured-shirts"
           }
         },
         "featured_collection_rbHB99": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "accessories-10-off"
+          }
+        },
+        "featured_collection_cUxqhY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "featured-shirts-10-off"
           }
         }
       },
       "block_order": [
         "featured_collection_iGUBni",
         "featured_collection_L9crpT",
-        "featured_collection_rbHB99"
+        "featured_collection_rbHB99",
+        "featured_collection_cUxqhY"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "",
         "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
@@ -162,7 +169,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "KÖP HÄR",
-            "link": "",
+            "link": "shopify:\/\/collections\/jackor",
             "button_style_secondary": false,
             "box_align": "bottom-right",
             "show_text_box": true,
@@ -190,35 +197,21 @@
     "collection_list_8GBRBq": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_ETraQA": {
+        "featured_collection_V7gDgF": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_6gWWNg": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_j8UeNn": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
+            "collection": "accessories-10-off"
           }
         }
       },
       "block_order": [
-        "featured_collection_ETraQA",
-        "featured_collection_6gWWNg",
-        "featured_collection_j8UeNn"
+        "featured_collection_V7gDgF"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "",
         "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
@@ -277,7 +270,7 @@
             "heading": "<strong>LOREM IPSUM<\/strong>",
             "text": "<p>Med fokus på kvalitet och stil erbjuder Lorem Ipsum en exklusiv kollektion av herrkläder som kombinerar klassisk elegans med moderna detaljer, perfekt för den stilmedvetne mannen som värdesätter tidlös design och överlägsen komfort.<\/p>",
             "button_label": "KÖP HÄR",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/lorem-ipsum"
           }
         },
         "row_tURyaG": {
@@ -285,10 +278,10 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Skarmbild_2024-05-02_214436.png",
             "caption": "ESTD MMXVII",
-            "heading": "<strong>SILVER SHARP<\/strong>",
+            "heading": "<strong>SIVEL SHARP<\/strong>",
             "text": "<p>Sivel Sharp är synonymt med sofistikerad och distinkt stil. Vår kollektion av herrkläder erbjuder precisionsskurna plagg i högkvalitativa material, perfekta för den moderna mannen som strävar efter att göra ett starkt intryck vart han än går.<\/p>",
             "button_label": "KÖP HÄR",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/sivel-sharp"
           }
         },
         "row_qkMRQb": {
@@ -299,7 +292,7 @@
             "heading": "<strong>MENS FASHION<\/strong>",
             "text": "<p>Med fokus på mångsidighet och trendiga detaljer erbjuder Mens Fashion en omfattande kollektion av herrkläder som är perfekta för dagens urban lifestyle. Våra plagg är designade för att vara bekväma och stilfulla, vilket ger en unik och personlig touch till varje outfit.<\/p>",
             "button_label": "KÖP HÄR",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/mens-fashion"
           }
         },
         "row_KhhUMb": {
@@ -310,7 +303,7 @@
             "heading": "<strong>CLOTHING<\/strong>",
             "text": "<p>Clothing är ett varumärke som omfamnar den moderna mannens individualitet och unika stil. Vår kollektion av herrkläder är inspirerad av tidlösa klassiker och nutida trender, vilket ger en mångsidig och stilfull garderob för alla tillfällen.<\/p>",
             "button_label": "KÖP HÄR",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/clothing"
           }
         }
       },

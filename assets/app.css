@@ -227,6 +227,9 @@
 .product .product__info-wrapper .product__info-container .product-form__input label {
   border-radius: unset;
 }
+.st-product-card .st-atc-button {
+  background-color: black !important;
+}
 .footer {
   background-color: #182A49;
 }
