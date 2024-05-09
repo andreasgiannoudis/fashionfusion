@@ -1,0 +1,51 @@
+{% comment %}
+    Template Name: Custom Collection Page with Filters
+    Template Key: custom-collection-with-filters
+{% endcomment %}
+
+{% layout none %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page_title }}</title>
+    <link rel="stylesheet" href="{{ 'styles.css' | asset_url }}">
+</head>
+<body>
+
+<header>
+    <!-- Header content goes here -->
+</header>
+
+<main>
+    <aside class="sidebar">
+        <!-- Filter options goes here -->
+        <h2>Filters</h2>
+        <ul>
+            <li><a href="#">Filter 1</a></li>
+            <li><a href="#">Filter 2</a></li>
+            <!-- Add more filter options as needed -->
+        </ul>
+    </aside>
+
+    <section class="products">
+        <!-- Product grid goes here -->
+        {% for product in collection.products %}
+            <div class="product">
+                <h3>{{ product.title }}</h3>
+                <p>{{ product.price | money }}</p>
+                <img src="{{ product.featured_image.src | product_img_url: 'medium' }}" alt="{{ product.title }}">
+                <!-- Add more product details as needed -->
+            </div>
+        {% endfor %}
+    </section>
+</main>
+
+<footer>
+    <!-- Footer content goes here -->
+</footer>
+
+</body>
+</html>

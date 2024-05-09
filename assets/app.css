@@ -132,6 +132,24 @@
 .content-for-layout .slideshow__text .banner__text {
   color: #C8B790;
 }
+.content-for-layout .collection-hero__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-for-layout .collection-hero__text-wrapper .collection-hero__title {
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+}
+.content-for-layout .collection-hero__text-wrapper .collection-hero__title .collection-hero__description {
+  max-width: 100%;
+}
+@media screen and (min-width: 750px) {
+  .collection-hero__description {
+    max-width: unset !important;
+  }
+}
 .banner__buttons {
   --c: #C8B790;
   /* text color */
@@ -202,6 +220,36 @@
 .button--secondary:active {
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
+}
+.banner__buttons {
+  --c: #C8B790;
+  /* text color */
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 33%, rgba(255, 255, 255, 0.3333333333), rgba(0, 0, 0, 0) 67%) var(--_p, 100%)/300% no-repeat, #182A49;
+  /* background color */
+  color: rgba(0, 0, 0, 0);
+  border: none;
+  transform: perspective(500px) rotateY(calc(20deg * var(--_i, -1)));
+  text-shadow: calc(var(--_i, -1) * 0.08em) -0.01em 0 var(--c), calc(var(--_i, -1) * -0.08em) 0.01em 2px rgba(0, 0, 0, 0.2666666667);
+  outline-offset: 0.1em;
+  transition: 0.5s;
+}
+.banner__buttons:hover,
+.banner__buttons:focus-visible {
+  --_p: 0%;
+  --_i: 1;
+}
+.banner__buttons:active {
+  text-shadow: none;
+  color: var(--c);
+  box-shadow: inset 0 0 9000000000q rgba(0, 0, 0, 0.3333333333);
+  transition: 0s;
+}
+.banner__buttons {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+  cursor: pointer;
+  padding: 0.1em 0.3em;
 }
 .product .product__info-wrapper .product__info-container .product__title .discount-percentage {
   font-family: "Open Sans";
