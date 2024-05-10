@@ -53,6 +53,19 @@
             display: none;
           }
     }
+
+    .header{
+        .header__icon--cart{
+            color: $secundary-text-color;
+        }
+        .header__icon{
+            .icon{
+                path{
+                    color: $secundary-text-color;
+                }
+            }
+        }
+    }
     
   }
   
@@ -60,5 +73,18 @@
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .header__inline-menu {
       display: none;
+    }
+
+    .header{
+        .header__icon--cart{
+            color: $secundary-text-color;
+        }
+        .header__icon{
+            .icon{
+                path{
+                    color: $secundary-text-color;
+                }
+            }
+        }
     }
   }

@@ -116,11 +116,23 @@
   .header-wrapper .header__inline-menu {
     display: none;
   }
+  .header .header__icon--cart {
+    color: #C8B790;
+  }
+  .header .header__icon .icon path {
+    color: #C8B790;
+  }
 }
 /* For tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .header__inline-menu {
     display: none;
+  }
+  .header .header__icon--cart {
+    color: #C8B790;
+  }
+  .header .header__icon .icon path {
+    color: #C8B790;
   }
 }
 .content-for-layout .slideshow__text {
@@ -277,6 +289,12 @@
 }
 .st-product-card .st-atc-button {
   background-color: black !important;
+}
+.content-for-layout .shopify-section .contact form .contact__button .button {
+  background-color: #182A49;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
 }
 .footer {
   background-color: #182A49;
