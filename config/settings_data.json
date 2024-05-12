@@ -1,6 +1,7 @@
 {
   "current": {
     "logo_width": 90,
+    "favicon": "shopify:\/\/shop_images\/logo_dark.png",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -117,6 +118,10 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-1",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_dark.png",
+    "checkout_logo_position": "center",
+    "checkout_accent_color": "#182a49",
+    "checkout_button_color": "#182a49",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
