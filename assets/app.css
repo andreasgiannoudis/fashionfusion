@@ -111,6 +111,18 @@
   font-family: "Open Sans";
   font-weight: 400;
 }
+.search-modal__content {
+  background-color: #182A49;
+}
+.search-modal__content .search-modal__form .search {
+  border-radius: 10px !important;
+}
+.search-modal__content .search-modal__form .search .field {
+  border-radius: 10px !important;
+}
+.search-modal__content .icon {
+  color: #fff;
+}
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
   .header-wrapper .header__inline-menu {
@@ -366,6 +378,9 @@
 }
 .st-product-card .st-atc-button {
   background-color: black !important;
+}
+.st-wishlist-details-button {
+  bottom: 75px !important;
 }
 .content-for-layout .shopify-section .contact form .contact__button .button {
   background-color: #182A49;
