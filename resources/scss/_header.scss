@@ -46,6 +46,22 @@
     }
 }
 
+
+.search-modal__content{
+    background-color: $primary-color;
+    .search-modal__form{
+        .search{
+            border-radius: 10px !important;
+            .field{
+                border-radius: 10px !important;
+            }
+        }
+    }
+    .icon{
+        color: #fff;
+    }
+}
+
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
     .header-wrapper{
