@@ -352,6 +352,9 @@
 .card__heading .icon-wrap {
   color: #C8B790;
 }
+.footer__copyright {
+  color: #C8B790;
+}
 .product .product__info-wrapper .product__info-container .product__title .discount-percentage {
   font-family: "Open Sans";
   font-weight: 700;
@@ -399,6 +402,15 @@
 }
 .footer .footer__content-top {
   max-width: unset;
+}
+.color-scheme-1 .icon-remove {
+  color: #182A49;
+  font-size: 32px;
+  transition: transform 0.3s ease;
+}
+.color-scheme-1 .icon-remove:hover {
+  transform: scale(1.4);
+  color: #C8B790;
 }
 body {
   margin: 0;
