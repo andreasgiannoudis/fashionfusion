@@ -10,4 +10,44 @@
             
           }
     }
+
+
+    .cart__contents{
+        background-color: rgb(249, 249, 249);
+        border-radius: 15px;
+        .cart__items{
+            border-bottom: unset;
+            .cart-items{
+                thead{
+                    tr{
+                        th{
+                            padding-top: 20px;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                        }
+                    }
+                }
+                tbody{
+                    tr{
+                        .cart-item__details{
+                            .cart-item__name{
+                                transition: color 0.3s ease;
+                                &:hover{
+                                    color: $secundary-text-color;
+                                }
+                            }
+                        }
+                        td{
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            
+                            
+                        }
+                    }
+                }
+            }
+
+        }
+        
+    }
 }
