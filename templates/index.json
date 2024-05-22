@@ -202,10 +202,17 @@
           "settings": {
             "collection": "accessories-10-off"
           }
+        },
+        "featured_collection_px7Jmi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "30-off-suits"
+          }
         }
       },
       "block_order": [
-        "featured_collection_V7gDgF"
+        "featured_collection_V7gDgF",
+        "featured_collection_px7Jmi"
       ],
       "settings": {
         "title": "",
