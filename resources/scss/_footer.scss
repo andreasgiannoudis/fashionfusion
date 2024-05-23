@@ -1,10 +1,11 @@
 .footer{
+    font-family: 'Open Sans';
     background-color: $primary-color;
    h2{
-    color:  #C8B790;
+    color:  $secundary-text-color;
    }
    a{
-    color:  #C8B790 !important;
+    color: $secundary-text-color !important;
    }
    .footer__content-top{
     max-width: unset;
