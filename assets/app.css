@@ -435,6 +435,9 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+.collection-hero .collection-hero__inner .collection-hero__text-wrapper .collection-hero__description p {
+  display: none;
+}
 body {
   margin: 0;
 }
