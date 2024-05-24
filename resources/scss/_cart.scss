@@ -51,3 +51,29 @@
         
     }
 }
+
+.card-wrapper{
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    &:hover {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        transform: translateY(-4px);
+      }
+    .badge--bottom-left{
+        background-color: red;
+        color: yellow;
+        font-weight: 700;
+    }
+    .card__information{
+        .price--on-sale{
+            .price-item--sale{
+                
+
+            }
+            .price-item--regular{
+                color: red;
+                text-transform: uppercase !important;
+            }
+        }
+
+    }
+}

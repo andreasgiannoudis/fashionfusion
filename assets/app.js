@@ -55,3 +55,10 @@ document.addEventListener("DOMContentLoaded", function() {
     return null;
   }
 });
+const badgeElements = document.querySelectorAll(".badge--bottom-left");
+function toggleBadgeSize() {
+  badgeElements.forEach((badgeElement) => {
+    badgeElement.classList.toggle("blink");
+  });
+}
+setInterval(toggleBadgeSize, 1e3);
