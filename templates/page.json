@@ -6,9 +6,82 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "collapsible_content_Fk8dWX": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_ncJ3tB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Vilka betalningsmetoder accepterar ni?",
+            "icon": "chat_bubble",
+            "row_content": "<p> Vi accepterar de vanligaste betalningsmetoderna, inklusive kreditkort (Visa, Mastercard, American Express), G-Pay, Union-Pay och banköverföringar.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RpPeXh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Vad är er returpolicy?",
+            "icon": "chat_bubble",
+            "row_content": "<p>Vi erbjuder en 30-dagars returpolicy för alla oanvända och oskadade varor. Kontakta vår kundtjänst för att starta en returprocess och få mer information om returvillkoren.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RdgrBY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Hur lång tid tar det innan min beställning levereras?",
+            "icon": "chat_bubble",
+            "row_content": "<p>Leveranstiden beror på ditt leveranssätt och var du befinner dig. Normalt sett tar standardleveranser mellan 3-7 arbetsdagar, medan expressleveranser kan levereras inom 1-2 arbetsdagar.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_46cYWg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kan jag spåra min beställning?",
+            "icon": "chat_bubble",
+            "row_content": "<p>Absolut! När din beställning har skickats kommer du att få ett spårningsnummer via e-post. Använd detta spårningsnummer för att följa din leverans och se den aktuella statusen.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_ncJ3tB",
+        "collapsible_row_RpPeXh",
+        "collapsible_row_RdgrBY",
+        "collapsible_row_46cYWg"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Vanliga frågor och svar",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "contact_form_89w8aW": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Har du inte hittat svaret du letar efter? Skicka din fråga här, och vi kommer att återkomma till dig så snart som möjligt!",
+        "heading_size": "h2",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collapsible_content_Fk8dWX",
+    "contact_form_89w8aW"
   ]
 }
