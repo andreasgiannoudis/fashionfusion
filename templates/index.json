@@ -111,6 +111,13 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "textone": {
+      "type": "textone",
+      "settings": {
+        "background": "#c8b790",
+        "text_color": "#182a49"
+      }
+    },
     "collection_list_fHemTC": {
       "type": "collection-list",
       "blocks": {
@@ -336,12 +343,12 @@
         "padding_bottom": 36
       }
     }
-    
   },
   "order": [
     "custom_liquid_aRKGXU",
     "featured_collection",
     "slideshow_FLyajL",
+    "textone",
     "collection_list_fHemTC",
     "slideshow_p7R9md",
     "collection_list_8GBRBq",
