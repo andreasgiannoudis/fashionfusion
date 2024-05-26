@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 .popup-content {
   position: fixed;
   top: 50%;
@@ -89,7 +95,7 @@
 .header .header__icons .header__search .header__icon span {
   color: #C8B790;
 }
-.header .header__icons .header__icon--cart {
+.header .header__icons .header__icon--cart, .header .header__icons .header__icon {
   color: #C8B790;
 }
 .header-wrapper {
@@ -451,8 +457,25 @@
   color: red;
   text-transform: uppercase !important;
 }
+.customer button {
+  background-color: #182A49;
+}
 .collection-hero .collection-hero__inner .collection-hero__text-wrapper .collection-hero__description p {
   display: none;
+}
+.toggle-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s;
+  margin-left: 10px;
+}
+.arrow.rotate {
+  transform: rotate(180deg);
 }
 .slider-mobile-gutter .contains-card--standard .grid__item .card-wrapper {
   transition: box-shadow 0.3s ease, transform 0.3s ease;
@@ -490,5 +513,5 @@ body {
   font-family: "Open Sans";
 }
 .gradient h1, .gradient h2, .gradient h3, .gradient h4, .gradient h5, .gradient h6 {
-  font-family: fantasy;
+  font-family: "Roboto";
 }
