@@ -8,7 +8,9 @@
 @import "contact.scss";
 @import "footer.scss";
 @import "cart.scss";
+@import "login-page.scss";
 @import "erbjudande.scss";
+@import "trigger-effect.scss";
 @import "cartlist.scss";
 
 body{
@@ -18,6 +20,6 @@ body{
 .gradient{
     font-family: 'Open Sans';
     h1,h2,h3,h4,h5,h6{
-        font-family: fantasy;
+        font-family: $roboto-font;
     }
 }

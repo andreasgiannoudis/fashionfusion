@@ -1,0 +1,16 @@
+.toggle-header {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    display: inline-block;
+    transition: transform 0.3s;
+    margin-left: 10px;
+}
+
+.arrow.rotate {
+    transform: rotate(180deg);
+}

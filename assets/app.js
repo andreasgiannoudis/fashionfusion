@@ -62,3 +62,31 @@ function toggleBadgeSize() {
   });
 }
 setInterval(toggleBadgeSize, 1e3);
+document.addEventListener("DOMContentLoaded", function() {
+  if (window.location.href.includes("hallbarhet")) {
+    const headers = document.querySelectorAll("h3");
+    headers.forEach((header) => {
+      const arrow = document.createElement("p");
+      arrow.classList.add("arrow");
+      arrow.textContent = "▼";
+      header.appendChild(arrow);
+      header.classList.add("toggle-header");
+      header.addEventListener("click", function() {
+        const paragraph2 = header.nextElementSibling;
+        if (paragraph2 && paragraph2.tagName.toLowerCase() === "p") {
+          if (paragraph2.style.display === "none" || !paragraph2.style.display) {
+            paragraph2.style.display = "block";
+            arrow.classList.add("rotate");
+          } else {
+            paragraph2.style.display = "none";
+            arrow.classList.remove("rotate");
+          }
+        }
+      });
+      const paragraph = header.nextElementSibling;
+      if (paragraph && paragraph.tagName.toLowerCase() === "p") {
+        paragraph.style.display = "none";
+      }
+    });
+  }
+});

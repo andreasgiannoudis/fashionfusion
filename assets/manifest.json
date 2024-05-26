@@ -1,4 +1,8 @@
 {
+  "resources/fonts/roboto/Roboto-Regular.ttf": {
+    "file": "Roboto-Regular.ttf",
+    "src": "resources/fonts/roboto/Roboto-Regular.ttf"
+  },
   "resources/js/app.js": {
     "file": "app.js",
     "isEntry": true,
