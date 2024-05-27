@@ -242,7 +242,7 @@
 
   }
   .mobile-facets__main{
-    background-color: $primary-color;
+    background-color: #f3f3f3;
     .mobile-facets{
       .mobile-facets__summary{
         color: $primary-color;
@@ -253,13 +253,13 @@
   }
   .focus-inset{
     font-size: 22px;
-    color: #c8b790a1;
+    color: $primary-color;
   }
   .mobile-facets__footer{
-    background-color: $primary-color;
+    background-color: $secundary-text-color;
   }
   .mobile-facets__submenu{
-    background-color: $primary-color;
+    background-color: #f3f3f3;
 
 
   }
@@ -267,14 +267,14 @@
   
 }
 .facets-layout-list {
-  color:$secundary-text-color ;
+  color:$primary-color ;
   
 }
 .mobile-facets__info{
-  color: $secundary-text-color;
+  color: $primary-color;
 }
 .facets__price{
-  color: $secundary-text-color;
+  color: $primary-color;
 }
 .card__heading{
   font-size: 20px ;

@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "Roboto";
-  src: url("./Roboto-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
 .popup-content {
   position: fixed;
   top: 50%;
@@ -325,29 +319,29 @@
   color: #182A49;
 }
 .mobile-facets__inner .mobile-facets__main {
-  background-color: #182A49;
+  background-color: #f3f3f3;
 }
 .mobile-facets__inner .mobile-facets__main .mobile-facets .mobile-facets__summary {
   color: #182A49;
 }
 .mobile-facets__inner .focus-inset {
   font-size: 22px;
-  color: rgba(200, 183, 144, 0.631372549);
+  color: #182A49;
 }
 .mobile-facets__inner .mobile-facets__footer {
-  background-color: #182A49;
+  background-color: #C8B790;
 }
 .mobile-facets__inner .mobile-facets__submenu {
-  background-color: #182A49;
+  background-color: #f3f3f3;
 }
 .facets-layout-list {
-  color: #C8B790;
+  color: #182A49;
 }
 .mobile-facets__info {
-  color: #C8B790;
+  color: #182A49;
 }
 .facets__price {
-  color: #C8B790;
+  color: #182A49;
 }
 .card__heading {
   font-size: 20px;
@@ -463,6 +457,9 @@
 .collection-hero .collection-hero__inner .collection-hero__text-wrapper .collection-hero__description p {
   display: none;
 }
+.title--primary {
+  display: none;
+}
 .toggle-header {
   cursor: pointer;
   display: flex;
@@ -508,10 +505,4 @@
 }
 body {
   margin: 0;
-}
-.gradient {
-  font-family: "Open Sans";
-}
-.gradient h1, .gradient h2, .gradient h3, .gradient h4, .gradient h5, .gradient h6 {
-  font-family: "Roboto";
 }
