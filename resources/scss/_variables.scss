@@ -1,17 +1,14 @@
 $primary-color: #182A49;
-$secundary-text-color:  #C8B790;
-// <<<<<<< HEAD
-// =======
+$secondary-text-color:  #C8B790;
+$popup-bg-color: #F4973D;
+$sale-price-color: #F61031;
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
 
 
-
-// @font-face {
-//     font-family: 'Roboto';
-//     src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
-//     font-weight: 400;
-//     font-style: normal;
-//   }
-
-
-//   $roboto-font: 'Roboto';
-// >>>>>>> 226cc54a8d44cfbc42bbbdc51ed4e0933b714765
+  $roboto-font: 'Roboto';

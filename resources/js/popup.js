@@ -1,3 +1,14 @@
+/**
+ * This script manages a popup that appears on the webpage to offer a discount code and a login redirect option.
+ * It performs the following functions:
+ * - Checks if a cookie named 'popupClosed' exists to determine if the popup should be shown.
+ * - Displays the popup if the 'popupClosed' cookie is not set or is not 'true'.
+ * - Allows the user to close the popup and sets the 'popupClosed' cookie to prevent the popup from showing again for 7 days.
+ * - Provides a button to redirect the user to a login page.
+ * - Displays a discount code when the user clicks the "show discount code" button.
+ * - Manages cookies to store the popup's closed state.
+ */
+
 document.addEventListener('DOMContentLoaded', function() {
     const popupContent = document.getElementById('popup-content');
     const closeButton = document.getElementById('close-button');
@@ -14,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
         popupContent.style.display = 'block';
     }
 
+    
     function closePopup() {
         popupContent.style.display = 'none';
         setCookie('popupClosed', 'true', 7);
@@ -38,6 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return Promise.resolve(manuallySpecifiedDiscountCode.trim());
     }
 
+    //a function to set a cookie with a specified name, value, and expiration in days
     function setCookie(name, value, days) {
         let expires = '';
         if (days) {
@@ -48,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.cookie = name + '=' + (value || '') + expires + '; path=/';
     }
     
-
+    //a function to get the value of a cookie by name
     function getCookie(name) {
         const nameEQ = name + '=';
         const cookies = document.cookie.split(';');
@@ -61,6 +74,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 return cookie.substring(nameEQ.length, cookie.length);
             }
         }
-        return null;
+        return null; //return null if the cookie is not found
     }
 });

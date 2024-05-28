@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 .popup-content {
   position: fixed;
   top: 50%;
@@ -346,7 +352,6 @@
 .card__heading {
   font-size: 20px;
   font-weight: 700;
-  font-family: fantasy;
   color: #182A49;
 }
 .card__heading .icon-wrap {
@@ -503,6 +508,10 @@
 .blink {
   animation: blink 1s infinite;
 }
-body {
+.gradient {
   margin: 0;
+  font-family: "Open Sans";
+}
+.gradient h1, .gradient h2, .gradient h3, .gradient h4, .gradient h5, .gradient h6 {
+  font-family: "Roboto";
 }

@@ -6,7 +6,7 @@
                 .discount-percentage{
                     font-family: 'Open Sans';
                     font-weight: 700;
-                    color: #F61031;
+                    color: $sale-price-color;
                     font-size: 16px;
                     line-height: 24px;
                 }
@@ -16,7 +16,7 @@
                 .price__container{
                     .price__sale{
                         .price-item--sale{
-                            color: #F61031;
+                            color: $sale-price-color;
                             font-family: 'Open Sans';
                             font-weight: 700;
                             font-size: 28px;

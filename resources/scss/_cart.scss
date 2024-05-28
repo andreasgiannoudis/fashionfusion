@@ -6,7 +6,7 @@
 
         &:hover {
             transform: scale(1.4);
-            color: $secundary-text-color;
+            color: $secondary-text-color;
             
           }
     }
@@ -33,15 +33,13 @@
                             .cart-item__name{
                                 transition: color 0.3s ease;
                                 &:hover{
-                                    color: $secundary-text-color;
+                                    color: $secondary-text-color;
                                 }
                             }
                         }
                         td{
                             padding-left: 10px;
                             padding-right: 10px;
-                            
-                            
                         }
                     }
                 }
@@ -65,10 +63,6 @@
     }
     .card__information{
         .price--on-sale{
-            .price-item--sale{
-                
-
-            }
             .price-item--regular{
                 color: red;
                 text-transform: uppercase !important;
