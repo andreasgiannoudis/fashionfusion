@@ -2,29 +2,29 @@
   <div class="three-images-wrapper">
     {%- if section.settings.image != blank -%}
       <div class="one-user">
-        <h1></h1>
+        
       </div>
     {%- else -%}
       <div class="one">
-        <h1></h1>
+        
       </div>
     {%- endif -%}
     {%- if section.settings.image2 != blank -%}
       <div class="two-user">
-        <h1></h1>
+        
       </div>
     {%- else -%}
       <div class="two">
-        <h1></h1>
+        
       </div>
     {%- endif -%}
     {%- if section.settings.image3 != blank -%}
       <div class="three-user">
-        <h1></h1>
+        
       </div>
     {%- else -%}
       <div class="three">
-        <h1></h1>
+        
       </div>
     {%- endif -%}
   </div>
@@ -36,7 +36,7 @@
   }
 
   .one {
-    background-image: url("{{ 'one.png' | asset_url }}");
+    background-image: url("{{ '' | asset_url }}");
     width: 33.333%;
     height: 500px;
     background-size: cover;
@@ -50,7 +50,7 @@
     background-position: center;
   }
   .two {
-    background-image: url("{{ 'two.png' | asset_url }}");
+    background-image: url("{{ '' | asset_url }}");
     width: 33.333%;
     height: 500px;
     background-size: cover;
@@ -64,7 +64,7 @@
     background-position: center;
   }
   .three {
-    background-image: url("{{ 'three.png' | asset_url }}");
+    background-image: url("{{ '' | asset_url }}");
     width: 33.333%;
     height: 500px;
     background-size: cover;
@@ -91,7 +91,7 @@
   }
 
   @media only screen and (max-width: 768px) {
-    /* Använd mediaförfrågan för att ändra layouten för mobilvyen */
+    
     .three-images-wrapper {
       flex-wrap: wrap;
     }
@@ -102,8 +102,8 @@
     .two-user,
     .three,
     .three-user {
-      width: 100%; /* Ändra bredden till 100% för mobilvy */
-      margin-bottom: 20px; /* Lägg till lite utrymme mellan bilderna */
+      width: 100%; 
+      margin-bottom: 20px; 
     }
   }
   
