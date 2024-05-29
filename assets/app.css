@@ -3,6 +3,7 @@
   src: url("./Roboto-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 .popup-content {
   position: fixed;
@@ -510,6 +511,7 @@
 }
 .gradient {
   margin: 0;
+  font-display: swap;
   font-family: "Open Sans";
 }
 .gradient h1, .gradient h2, .gradient h3, .gradient h4, .gradient h5, .gradient h6 {
